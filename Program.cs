@@ -10,8 +10,10 @@ namespace LineComputationUsingOpps
     {
         static void Main(string[] args)
         {
-            FindDistancBtwLine Obj= new FindDistancBtwLine();
-            Obj.length(10,20,30 ,20);
+            ChekQuialityBtwTwoLine Obj = new ChekQuialityBtwTwoLine();
+            Obj.Point();
+
+
         }
     }
 }
