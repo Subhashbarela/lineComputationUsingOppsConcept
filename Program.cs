@@ -10,8 +10,8 @@ namespace LineComputationUsingOpps
     {
         static void Main(string[] args)
         {
-            ChekQuialityBtwTwoLine Obj = new ChekQuialityBtwTwoLine();
-            Obj.Point();
+            UsinCompareMethode Obj = new UsinCompareMethode(10,10,20,10);
+            Obj.Compare(30, 30, 40, 30);
 
 
         }
